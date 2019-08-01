@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="json-feed" translatesAutoresizingMaskIntoConstraints="NO" id="Hvo-h7-rQk">
+                                <rect key="frame" x="155.5" y="301.5" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="srP-BP-8yV"/>
+                                    <constraint firstAttribute="height" constant="64" id="whM-8K-nmP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JSON Feed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2wA-Vn-1Zh">
+                                <rect key="frame" x="142.5" y="397.5" width="90" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reader" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbD-h2-nXN">
+                                <rect key="frame" x="159" y="418.5" width="57" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eh1-Fo-tot">
+                                <rect key="frame" x="89" y="631" width="197" height="16"/>
+                                <string key="text">Copyright (c) 2019 Osama Allam
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="udacity" translatesAutoresizingMaskIntoConstraints="NO" id="gb2-bn-fhj">
+                                <rect key="frame" x="175" y="592" width="25" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="euG-Od-TVV"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="gb2-bn-fhj" firstAttribute="centerX" secondItem="Eh1-Fo-tot" secondAttribute="centerX" id="1Ef-6J-CZb"/>
+                            <constraint firstItem="2wA-Vn-1Zh" firstAttribute="top" secondItem="Hvo-h7-rQk" secondAttribute="bottom" constant="32" id="Az7-x7-vAC"/>
+                            <constraint firstItem="gb2-bn-fhj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="175" id="EJA-UF-uOM"/>
+                            <constraint firstAttribute="bottom" secondItem="Eh1-Fo-tot" secondAttribute="bottom" constant="20" symbolic="YES" id="OFT-79-85e"/>
+                            <constraint firstItem="Hvo-h7-rQk" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="QkV-xi-TrG"/>
+                            <constraint firstItem="Eh1-Fo-tot" firstAttribute="top" secondItem="gb2-bn-fhj" secondAttribute="bottom" constant="8" symbolic="YES" id="cE2-V3-if1"/>
+                            <constraint firstItem="2wA-Vn-1Zh" firstAttribute="centerX" secondItem="Hvo-h7-rQk" secondAttribute="centerX" id="eaq-Sa-7j4"/>
+                            <constraint firstItem="Hvo-h7-rQk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="g1t-Rz-B7c"/>
+                            <constraint firstItem="bbD-h2-nXN" firstAttribute="top" secondItem="2wA-Vn-1Zh" secondAttribute="bottom" id="gIu-bf-5XY"/>
+                            <constraint firstItem="bbD-h2-nXN" firstAttribute="centerX" secondItem="2wA-Vn-1Zh" secondAttribute="centerX" id="pfd-FA-fhV"/>
+                            <constraint firstItem="gb2-bn-fhj" firstAttribute="centerX" secondItem="bbD-h2-nXN" secondAttribute="centerX" id="rAb-xW-XFL"/>
+                            <constraint firstItem="Eh1-Fo-tot" firstAttribute="top" secondItem="gb2-bn-fhj" secondAttribute="bottom" constant="8" id="ywx-gO-1C6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="json-feed" width="40" height="40"/>
+        <image name="udacity" width="62" height="62"/>
+    </resources>
+</document>
