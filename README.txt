@@ -3,7 +3,7 @@
 
 ## Origin
 This app is my Capstone project for the iOS Developer Nanodegree offered by Udacity. This Nanodegree course focuses on iOS app development using Swift, including UIKit Fundamentals, Networking, and Persistence with Code Data.
-The app uses JSON Feeds to get contents. I read about JSON feeds in May 2017 and instantly I fall in love with it. I decided to write a dedicated app for it and finally I made it here.
+The app uses JSON Feeds to get contents. I read about JSON feeds in May 2018 and instantly I fall in love with it. I decided to write a dedicated app for it and finally I made it here.
 
 ## About the App
 JSON fed reader in current context was s simple app that subscribed to blog feed from jsonfeed.org and let users read through it.
